@@ -10,7 +10,68 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<form id="carSignupForm" action="#" method="POST">
+	<div class="inputField">
+	<label for="name">Name</label>	
+	<input id="name" type="text" placeholder="Name" required></input>
+	</div>
 
+	<div class="inputField">
+	<label for="email">Email</label>	
+	<input id="email" type="email" placeholder="Email" required></input>
+	</div>
+
+	<div class="inputField">
+	<label for="">Gender</label>	
+	<input id="gender_m" type="radio" name="gender" value ="Male" required></input>
+	<label for="gender_m">Male</label>	
+		
+	<input id="gender_f" type="radio" name="gender" value ="Female"></input>
+	<label for="gender_f">Female</label>	
+
+<!-- 	<input id="oth" type="radio" name="gender" value ="Others"></input>
+	<label for="oth">Others</label>	 -->
+	</div>
+
+	<div class="inputField">
+		<label for="cars">Car Brands</label>
+		<select id="cars">
+			<option value="">--Please choose an option--</option>
+		    <option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+	</div>
+
+	<div class="inputField">
+	<label for="age">Age</label>	
+	<input id="age" type="number" placeholder="age" required></input>
+	</div>	
+
+	<div class="inputField">
+	<label for="dob">Date of Birth</label>	
+	<input id="dob" type="date" required></input>
+	</div>	
+
+	<div class="inputField">
+	<label for="tel">Phone Number</label>	
+	<input id="tel" type="number" placeholder="xxx-xxx-xxxx" ></input>
+	</div>	
+	
+	<div class="inputField">
+	<label for="password">Password</label>	
+	<input id="password" type="password" required></input>
+	</div>		
+
+<!-- 	<div class="inputField">
+	<label for="portfolio">Portfolio URL</label>	
+	<input id="portfolio" type="url"></input>
+	</div>		 -->
+
+	<div class="submitBtn">
+	<button type="submit" value="submit">Submit</button>
+	</div>
+</form>
 </body>
 
 </html>
